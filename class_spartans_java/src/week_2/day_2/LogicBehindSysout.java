@@ -4,7 +4,7 @@ public class LogicBehindSysout {
 
     public static void main(String[] args) {
 
-        System.out.print( " Welcome to" );
+        System.out.print( " Welcome to " );
         System.out.print( " Class Spartans! " );
         System.out.println(" Java is easY!");
 
