@@ -18,8 +18,8 @@ public class WorkingWithTrimMethod {
 
         System.out.println( message.replaceAll(" ", "").toUpperCase() );
         //                                          ' '
-
         String charAtIndexZero = message.charAt(0) + "";
+        System.out.println( message.replace(message.charAt(0), 'P') );
         System.out.println( (message.replaceAll(charAtIndexZero, "P")) );
         System.out.println( (message.replaceAll(charAtIndexZero, "P")) );
 

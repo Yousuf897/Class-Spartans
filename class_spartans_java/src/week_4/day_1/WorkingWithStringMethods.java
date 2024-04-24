@@ -11,6 +11,9 @@ public class WorkingWithStringMethods {
     // toLowerCase(): Return the lower case version of your String.
     // toUpperCase(): Return the upper case version of your String.
     // trim(): Remove the spaces before and after your String.
+    // indexOf(): Returns the index of specific character
+    // contains(): Returns true or false if a specific string is available.
+    // equals(): Compares the actual values of String rather than their reference.
 
     // NOTE: How to get the last index of a message?? --> Use N - 1 formula.
     // Where N is the total length of your message. so if we say length() - 1 it will give us
