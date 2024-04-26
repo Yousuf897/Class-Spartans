@@ -1,0 +1,2 @@
+4. Combining Numeric and Text Data:
+You have two variables: int age = 30; and String message = "Happy ";. Concatenate them in a way to get the output as: "Happy 30th Birthday!"

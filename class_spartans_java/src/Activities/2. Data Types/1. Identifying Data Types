@@ -1,0 +1,12 @@
+1. Identifying Data Types:
+Given the following variables:
+
+java
+
+age = 25;
+averageScore = 89.5;
+hasPassed = true;
+grade = 'A';
+name = "Alice";
+
+Identify and write down the data type of each variable.

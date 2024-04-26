@@ -1,0 +1,2 @@
+3. String Length:
+You've been given a variable String sentence = "Java is fun!";. Find out the number of characters (including spaces and punctuation) in the sentence using the appropriate method.

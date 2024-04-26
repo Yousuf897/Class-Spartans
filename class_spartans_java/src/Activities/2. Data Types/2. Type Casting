@@ -1,0 +1,2 @@
+2. Type Casting:
+You have a variable double price = 19.99;. However, you want to round it to a whole number. Convert this double into an int.
