@@ -25,17 +25,20 @@ public class Arrays {
 
     There are mainly two ways to initialize an array:
 
-    Static Initialization: In this method, you specify the elements of the array directly at the time of declaration. 
+    Static Initialization: Here, you specify the size of the array and initialize
+    it with values at the same time.
 
-    int[] numbers = {10, 20, 30, 40, 50}; // Array initialized with specific values
+
+    int[] numbers = {10, 20, 30, 40, 50};
 
 
-    Dynamic Initialization: Here, you specify the size of the array first, and then you can set values using the index.
+    Dynamic Initialization: In this method, you specify the size of the array first, and then you
+    can set values using the index.
 
     int[] numbers = new int[5]; // Declare an array of size 5
     numbers[0] = 10;  // The first element
     numbers[1] = 20;  // The second element
-    // ... and so on.
+// ... and so on.
 
 */
 
