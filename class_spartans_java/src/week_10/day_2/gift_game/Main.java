@@ -8,11 +8,11 @@ public class Main {
         GiftAssigner giftAssigner = new GiftAssigner();
 
         // Assign Students
-        giftAssigner.addStudent("");
-        giftAssigner.addStudent("");
-        giftAssigner.addStudent("");
-        giftAssigner.addStudent("");
-        giftAssigner.addStudent("");
+        giftAssigner.addStudent("A");
+        giftAssigner.addStudent("B");
+        giftAssigner.addStudent("C");
+        giftAssigner.addStudent("D");
+        giftAssigner.addStudent("E");
 
         // Assign Gifts
         giftAssigner.assignGifts();

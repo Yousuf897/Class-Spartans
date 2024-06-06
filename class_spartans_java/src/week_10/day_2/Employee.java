@@ -1,4 +1,4 @@
-package week_10.day_2.gift_game;
+package week_10.day_2;
 
 public class Employee {
 
