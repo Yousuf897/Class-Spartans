@@ -1,0 +1,5 @@
+Question 8: Modifying Capacity
+
+    Create a StringBuilder object with an initial capacity of 50.
+    Append the string "Initial Capacity Test" to the StringBuilder object.
+    Print the current capacity of the StringBuilder using the capacity() method.

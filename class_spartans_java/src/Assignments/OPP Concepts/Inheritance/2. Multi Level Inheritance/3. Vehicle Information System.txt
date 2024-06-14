@@ -1,0 +1,29 @@
+Project 3: Vehicle Information System
+
+Objective: Practice creating a multi-level inheritance structure with additional functionality.
+
+Steps:
+
+    Base Class Creation:
+        Create a base class called Vehicle.
+        Define private member variables: make (type String), model (type String), and year (type int).
+        Provide a constructor to initialize these variables.
+        Implement public methods getMake(), getModel(), and getYear() to access these variables.
+
+    First Level of Inheritance:
+        Create a derived class called Car that extends Vehicle.
+        Add a private member variable: numberOfDoors (type int).
+        Provide a constructor to initialize all variables, including those in the base class.
+        Implement a public method getNumberOfDoors() to access the number of doors.
+
+    Second Level of Inheritance:
+        Create a derived class called ElectricCar that extends Car.
+        Add a private member variable: batteryCapacity (type int).
+        Provide a constructor to initialize all variables, including those in the base class.
+        Implement a public method getBatteryCapacity() to access the battery capacity.
+
+    Method Implementation:
+        In the ElectricCar class, override the getModel() method to include battery capacity in the model description.
+
+    Testing:
+        In the main method, create an ElectricCar object and display all its details, including those from the Vehicle and Car classes, and the updated model details.

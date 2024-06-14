@@ -1,0 +1,5 @@
+Question 7: Getting the Length
+
+    Create a StringBuffer object with the string "Length Test".
+    Get the length of the string using the length() method.
+    Print the length of the string.

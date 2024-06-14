@@ -1,0 +1,5 @@
+Question 6: Converting to String
+
+    Create a StringBuilder object with the string "StringBuilder Example".
+    Convert the StringBuilder object to a String using the toString() method.
+    Print the resulting string.

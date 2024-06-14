@@ -1,0 +1,29 @@
+Project 8: Product Management System
+
+Objective: Practice creating a multi-level inheritance structure with additional functionality.
+
+Steps:
+
+    Base Class Creation:
+        Create a base class called Product.
+        Define private member variables: productId (type String), productName (type String), and price (type double).
+        Provide a constructor to initialize these variables.
+        Implement public methods getProductId(), getProductName(), and getPrice() to access these variables.
+
+    First Level of Inheritance:
+        Create a derived class called Electronics that extends Product.
+        Add a private member variable: warrantyPeriod (type int).
+        Provide a constructor to initialize all variables, including those in the base class.
+        Implement a public method getWarrantyPeriod() to access the warranty period.
+
+    Second Level of Inheritance:
+        Create a derived class called Laptop that extends Electronics.
+        Add a private member variable: batteryLife (type int).
+        Provide a constructor to initialize all variables, including those in the base class.
+        Implement a public method getBatteryLife() to access the battery life.
+
+    Method Implementation:
+        In the Laptop class, override the getProductName() method to include battery life in the product name.
+
+    Testing:
+        In the main method, create a Laptop object and display all its details, including those from the Product and Electronics classes, and the updated product name details.

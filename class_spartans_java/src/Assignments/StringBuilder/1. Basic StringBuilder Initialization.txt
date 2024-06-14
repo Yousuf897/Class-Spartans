@@ -1,0 +1,5 @@
+Question 1: Basic StringBuilder Initialization
+
+    Create a StringBuilder object with an initial string "Hello".
+    Append the string " World" to the StringBuilder object.
+    Print the resulting string.

@@ -1,0 +1,5 @@
+Question 9: Clearing the StringBuilder
+
+    Create a StringBuilder object with the string "Clear Test".
+    Clear the contents of the StringBuilder using the setLength(0) method.
+    Print the length of the StringBuilder to confirm it is empty.

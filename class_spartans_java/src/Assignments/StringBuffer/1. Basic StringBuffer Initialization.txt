@@ -1,0 +1,5 @@
+Question 1: Basic StringBuffer Initialization
+
+    Create a StringBuffer object with an initial string "Hello".
+    Append the string " World" to the StringBuffer object.
+    Print the resulting string.

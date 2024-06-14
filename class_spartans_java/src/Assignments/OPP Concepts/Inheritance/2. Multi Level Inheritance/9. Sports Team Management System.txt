@@ -1,0 +1,29 @@
+Project 9: Sports Team Management System
+
+Objective: Practice creating a multi-level inheritance structure with additional functionality.
+
+Steps:
+
+    Base Class Creation:
+        Create a base class called TeamMember.
+        Define private member variables: name (type String), memberId (type String), and position (type String).
+        Provide a constructor to initialize these variables.
+        Implement public methods getName(), getMemberId(), and getPosition() to access these variables.
+
+    First Level of Inheritance:
+        Create a derived class called Player that extends TeamMember.
+        Add a private member variable: jerseyNumber (type int).
+        Provide a constructor to initialize all variables, including those in the base class.
+        Implement a public method getJerseyNumber() to access the jersey number.
+
+    Second Level of Inheritance:
+        Create a derived class called Captain that extends Player.
+        Add a private member variable: yearsAsCaptain (type int).
+        Provide a constructor to initialize all variables, including those in the base class.
+        Implement a public method getYearsAsCaptain() to access the years as captain.
+
+    Method Implementation:
+        In the Captain class, override the getPosition() method to include years as captain in the position description.
+
+    Testing:
+        In the main method, create a Captain object and display all its details, including those from the TeamMember and Player classes, and the updated position details.

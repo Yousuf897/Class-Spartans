@@ -1,0 +1,5 @@
+Question 2: Inserting Text
+
+    Create a StringBuffer object with the string "HelloWorld".
+    Insert a space between "Hello" and "World" using the insert() method.
+    Print the resulting string.

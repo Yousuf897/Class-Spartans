@@ -1,0 +1,29 @@
+Project 5: Bank Account Management System
+
+Objective: Practice creating a multi-level inheritance structure with additional functionality.
+
+Steps:
+
+    Base Class Creation:
+        Create a base class called BankAccount.
+        Define private member variables: accountNumber (type String), balance (type double), and accountHolder (type String).
+        Provide a constructor to initialize these variables.
+        Implement public methods getAccountNumber(), getBalance(), and getAccountHolder() to access these variables.
+
+    First Level of Inheritance:
+        Create a derived class called SavingsAccount that extends BankAccount.
+        Add a private member variable: interestRate (type double).
+        Provide a constructor to initialize all variables, including those in the base class.
+        Implement a public method getInterestRate() to access the interest rate.
+
+    Second Level of Inheritance:
+        Create a derived class called FixedDepositAccount that extends SavingsAccount.
+        Add a private member variable: maturityPeriod (type int).
+        Provide a constructor to initialize all variables, including those in the base class.
+        Implement a public method getMaturityPeriod() to access the maturity period.
+
+    Method Implementation:
+        In the FixedDepositAccount class, override the getBalance() method to include interest based on the maturity period.
+
+    Testing:
+        In the main method, create a FixedDepositAccount object and display all its details, including those from the BankAccount and SavingsAccount classes, and the updated balance details.

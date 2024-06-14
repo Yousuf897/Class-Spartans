@@ -1,0 +1,5 @@
+Question 6: Converting to String
+
+    Create a StringBuffer object with the string "StringBuffer Example".
+    Convert the StringBuffer object to a String using the toString() method.
+    Print the resulting string.

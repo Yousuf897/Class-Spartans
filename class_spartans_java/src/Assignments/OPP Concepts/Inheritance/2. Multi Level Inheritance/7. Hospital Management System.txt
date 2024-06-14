@@ -1,0 +1,29 @@
+Project 7: Hospital Management System
+
+Objective: Practice creating a multi-level inheritance structure with additional functionality.
+
+Steps:
+
+    Base Class Creation:
+        Create a base class called Person.
+        Define private member variables: name (type String) and age (type int).
+        Provide a constructor to initialize these variables.
+        Implement public methods getName() and getAge() to access these variables.
+
+    First Level of Inheritance:
+        Create a derived class called Patient that extends Person.
+        Add a private member variable: patientId (type String).
+        Provide a constructor to initialize all variables, including those in the base class.
+        Implement a public method getPatientId() to access the patient ID.
+
+    Second Level of Inheritance:
+        Create a derived class called InPatient that extends Patient.
+        Add a private member variable: roomNumber (type int).
+        Provide a constructor to initialize all variables, including those in the base class.
+        Implement a public method getRoomNumber() to access the room number.
+
+    Method Implementation:
+        In the InPatient class, override the getAge() method to include the room number in the age description.
+
+    Testing:
+        In the main method, create an InPatient object and display all its details, including those from the Person and Patient classes, and the updated age details.

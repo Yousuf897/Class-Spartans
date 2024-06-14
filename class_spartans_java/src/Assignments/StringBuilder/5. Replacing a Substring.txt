@@ -1,0 +1,5 @@
+Question 5: Replacing a Substring
+
+    Create a StringBuilder object with the string "Hello Java".
+    Replace "Java" with "World" using the replace() method.
+    Print the resulting string.

@@ -1,0 +1,5 @@
+Question 9: Clearing the StringBuffer
+
+    Create a StringBuffer object with the string "Clear Test".
+    Clear the contents of the StringBuffer using the setLength(0) method.
+    Print the length of the StringBuffer to confirm it is empty.

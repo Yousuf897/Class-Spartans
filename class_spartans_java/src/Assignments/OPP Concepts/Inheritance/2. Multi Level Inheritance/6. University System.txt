@@ -1,0 +1,29 @@
+Project 6: University System
+
+Objective: Practice creating a multi-level inheritance structure with additional functionality.
+
+Steps:
+
+    Base Class Creation:
+        Create a base class called UniversityMember.
+        Define private member variables: name (type String) and memberId (type String).
+        Provide a constructor to initialize these variables.
+        Implement public methods getName() and getMemberId() to access these variables.
+
+    First Level of Inheritance:
+        Create a derived class called Faculty that extends UniversityMember.
+        Add a private member variable: department (type String).
+        Provide a constructor to initialize all variables, including those in the base class.
+        Implement a public method getDepartment() to access the department.
+
+    Second Level of Inheritance:
+        Create a derived class called Professor that extends Faculty.
+        Add a private member variable: rank (type String).
+        Provide a constructor to initialize all variables, including those in the base class.
+        Implement a public method getRank() to access the rank.
+
+    Method Implementation:
+        In the Professor class, override the getDepartment() method to include the rank in the department description.
+
+    Testing:
+        In the main method, create a Professor object and display all its details, including those from the UniversityMember and Faculty classes, and the updated department details.

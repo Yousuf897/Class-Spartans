@@ -1,0 +1,5 @@
+Question 8: Modifying Capacity
+
+    Create a StringBuffer object with an initial capacity of 50.
+    Append the string "Initial Capacity Test" to the StringBuffer object.
+    Print the current capacity of the StringBuffer using the capacity() method.

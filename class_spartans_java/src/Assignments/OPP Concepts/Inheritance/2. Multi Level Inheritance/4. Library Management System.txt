@@ -1,0 +1,29 @@
+Project 4: Library Management System
+
+Objective: Practice creating a multi-level inheritance structure with additional functionality.
+
+Steps:
+
+    Base Class Creation:
+        Create a base class called Book.
+        Define private member variables: title (type String), author (type String), and ISBN (type String).
+        Provide a constructor to initialize these variables.
+        Implement public methods getTitle(), getAuthor(), and getISBN() to access these variables.
+
+    First Level of Inheritance:
+        Create a derived class called LibraryBook that extends Book.
+        Add a private member variable: libraryId (type String).
+        Provide a constructor to initialize all variables, including those in the base class.
+        Implement a public method getLibraryId() to access the library ID.
+
+    Second Level of Inheritance:
+        Create a derived class called ReferenceBook that extends LibraryBook.
+        Add a private member variable: referenceSection (type String).
+        Provide a constructor to initialize all variables, including those in the base class.
+        Implement a public method getReferenceSection() to access the reference section.
+
+    Method Implementation:
+        In the ReferenceBook class, override the getAuthor() method to include the reference section in the author description.
+
+    Testing:
+        In the main method, create a ReferenceBook object and display all its details, including those from the Book and LibraryBook classes, and the updated author details.

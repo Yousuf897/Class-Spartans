@@ -1,0 +1,5 @@
+Question 3: Reversing a String
+
+    Create a StringBuffer object with the string "OpenAI".
+    Reverse the string using the reverse() method.
+    Print the reversed string.

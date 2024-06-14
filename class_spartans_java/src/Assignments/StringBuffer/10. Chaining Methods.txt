@@ -1,0 +1,5 @@
+Question 10: Chaining Methods
+
+    Create a StringBuffer object with the string "Chaining".
+    Chain multiple methods to perform the following operations in a single statement: append " Methods", replace "Methods" with "Operations", and reverse the entire string.
+    Print the resulting string.

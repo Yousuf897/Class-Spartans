@@ -1,0 +1,5 @@
+Question 4: Deleting Characters
+
+    Create a StringBuffer object with the string "Hello World".
+    Delete the character at index 5 (the space) using the deleteCharAt() method.
+    Print the resulting string.
