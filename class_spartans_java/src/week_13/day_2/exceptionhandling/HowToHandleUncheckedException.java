@@ -27,6 +27,12 @@ public class HowToHandleUncheckedException {
 
         System.out.println("Java is easy!");
 
+        String[] names = {"John", "Tony"};
+
+        for ( String eachElement : names ) {
+            System.out.println( eachElement );
+        }
+
     }
 
 }
